@@ -313,6 +313,7 @@ html {
 .section-contacts {
   padding-top: 85px;
   padding-bottom: 95px;
+  border-bottom: 1px solid #e4e4e4;
 }
 
 .section-contacts-list {
@@ -366,11 +367,68 @@ html {
   color: #1c1c1c;
 }
 
+/*Form*/
+.section-form {
+  border-bottom: 1px solid #e4e4e4;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.form-title {
+  margin-bottom: 35px;
+  margin-top: 0;
+  font-size: 35px;
+  line-height: 1;
+  color: #1c1c1c;
+  font-weight: 600;
+}
+
+.form-description {
+  margin-bottom: 65px;
+  font-size: 16px;
+  line-height: 1;
+  color: #787878;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  width: 250px;
+  height: 60px;
+  border: 1px solid #dadada;
+  border-radius: 30px;
+  padding: 0 30px;
+}
+
+.input::placeholder {
+  color: #787878;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 300;
+}
+
+.btn-submit {
+  width: 240px;
+  height: 60px;
+  border: 0;
+  border-radius: 30px;
+  font-size: 16px;
+  line-height: 1;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.input,
+.btn-submit {
+  flex: 0 0 calc(25% - 15px);
+}
 /*Footer*/
 
 .footer {
   height: 125px;
-  border-top: 1px solid #e4e4e4;
 }
 
 .footer-container {
