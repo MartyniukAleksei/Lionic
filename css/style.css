@@ -28,6 +28,10 @@
   box-sizing: border-box;
 }
 
+body {
+  min-width: 1200px;
+}
+
 a {
   text-decoration: none;
 }
@@ -376,6 +380,7 @@ html {
 
 .section-contact-link {
   color: #787878;
+  transition: all 0.3s ease;
 }
 
 .section-contacts-icon {
